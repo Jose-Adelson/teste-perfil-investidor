@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link rel="stylesheet" type="text/css" href="teste-perfil-investidor.css" media="screen">
+
+    <title>Perfil Investidor</title>
+</head>
+<body>
+    <div>
+        <h1 id="titulo">Perfil do investidor</h1>
+        <p id="subtitulo">Selecione a resposta mais adequada, para saber em qual perfil se encaixa.</p>
+    </div>
+
+<!--Inicio da pesquisa-->
+    <form>
+        <div id="idade-investidor">
+            <label for="idade">Quantos anos faltam para sua aposentadoria?</label>
+            <select name="idade" id="idade">
+                <option selected disabled value="">Selecione</option>
+                <option value="0">1 a 3 anos</option>
+                <option value="2">4 a 8 anos</option>
+                <option value="4">9 a 16 anos</option>
+                <option value="6">17 a 24 anos</option>
+                <option value="8">+ de 25 anos</option>
+            </select>
+        </div><br>
+
+        <fieldset>
+            <div>
+                <label class="pergunta" for="item1">1 - Tenho situação financeira estável?</label><br>
+
+                <input type="radio" name="item1" value="1">
+                <label for="">concordo totalmente</label>
+
+                <input type="radio" name="item1" value="1">
+                <label for="">concordo</label>
+
+                <input type="radio" name="item1" value="1">
+                <label for="">netruo</label>
+    
+                <input type="radio" name="item1" value="1">
+                <label for="">discordo</label>
+
+                <input type="radio" name="item1" value="1">
+                <label for="">discordo totalmente</label>
+
+            </div><br>
+
+            <div>
+                <label class="pergunta" for="item2">2 - Aceito assumir riscos no curto prazo, pois acredito que no longo prazo o retorno será maior.</label><br>
+                <input type="radio" name="item2" value="1">
+                <label for="">concordo totalmente</label>
+                <input type="radio" name="item2" value="1">
+                <label for="">concordo</label>
+                <input type="radio" name="item2" value="1">
+                <label for="">netruo</label>
+                <input type="radio" name="item2" value="1">
+                <label for="">discordo</label>
+                <input type="radio" name="item2" value="1">
+                <label for="">discordo totalmente</label>
+            </div><br>
+
+            <div>
+                <label class="pergunta" for="item3">3 - Ganhar o máximo que puder é importante para mim, mesmo que eu tenha que correr algum risco de perder parte do capital investido.</label><br>
+                <input type="radio" name="item3" value="1">
+                <label for="">concordo totalmente</label>
+                <input type="radio" name="item3" value="1">
+                <label for="">concordo</label>
+                <input type="radio" name="item3" value="1">
+                <label for="">netruo</label>
+                <input type="radio" name="item3" value="1">
+                <label for="">discordo</label>
+                <input type="radio" name="item3" value="1">
+                <label for="">discordo totalmente</label>
+            </div><br>
+
+            <div>
+                <label class="pergunta" for="item4">4 - Prefiro ver meus investimentos crescendo constantemente, sem altos e baixos, mesmo que no longo prazo eu tenha retorno menor.</label><br>
+                <input type="radio" name="item4" value="1">
+                <label for="">concordo totalmente</label>
+                <input type="radio" name="item4" value="1">
+                <label for="">concordo</label>
+                <input type="radio" name="item4" value="1">
+                <label for="">netruo</label>
+                <input type="radio" name="item4" value="1">
+                <label for="">discordo</label>
+                <input type="radio" name="item4" value="1">
+                <label for="">discordo totalmente</label>
+            </div><br>
+
+            <div>
+                <label class="pergunta" for="item5">5 - Evitar perdas neste ano é mais importante do que crescimento a longo prazo. Eu quero protejer minha poupança a curto prazo.</label><br>
+                <input type="radio" name="item5" value="1">
+                <label >concordo totalmente</label>
+                <input type="radio" name="item5" value="2">
+                <label >concordo</label>
+                <input type="radio" name="item5" value="3">
+                <label >netruo</label>
+                <input type="radio" name="item5" value="4">
+                <label >discordo</label>
+                <input type="radio" name="item5" value="5">
+                <label>discordo totalmente</label>
+            </div><br>
+
+            <div>
+                <label class="pergunta" for="item6">6 - Tenho razoável experiência e conhecimento de fundos de investimento.</label><br>
+               
+                <input type="radio" name="item6" value="1" >
+                <label for="">concordo totalmente</label>
+                <input type="radio" name="item6" value="2" >
+                <label for="">concordo</label>
+                <input type="radio" name="item6" value="3" >                
+                <label for="">netruo</label>
+                <input type="radio" name="item6" value="4" >
+                <label for="">discordo</label>
+                <input type="radio" name="item6" value="5" >
+                <label for="">discordo totalmente</label>
+                
+            </div>
+
+
+        </fieldset>
+
+        <button class="botao" type="submit">Concluído</button>
+    </form>    
+
+    
+</body>
+</html>
